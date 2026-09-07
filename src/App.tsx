@@ -67,6 +67,7 @@ function App() {
                 const log = getLog(ex.id);
                 return (
                   <li key={ex.id} className={`exercise-item ${log.done ? "done" : ""}`}>
+                    <img className="exercise-image" src={ex.image} alt={`Démonstration : ${ex.name}`} loading="lazy" />
                     <label className="exercise-check">
                       <input
                         type="checkbox"

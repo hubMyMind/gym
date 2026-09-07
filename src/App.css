@@ -110,10 +110,22 @@
 }
 
 .exercise-item {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  column-gap: 12px;
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 10px 12px;
   background: var(--card-bg);
+}
+
+.exercise-image {
+  grid-row: span 4;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--accent-bg);
 }
 
 .exercise-item.done {
@@ -151,7 +163,7 @@
   font-size: 13px;
   color: var(--text);
   margin-top: 4px;
-  margin-left: 28px;
+  margin-left: 0;
 }
 
 .exercise-note {
@@ -159,14 +171,14 @@
   font-style: italic;
   color: var(--text);
   margin-top: 2px;
-  margin-left: 28px;
+  margin-left: 0;
 }
 
 .weight-input {
   font: inherit;
   font-size: 14px;
   margin-top: 8px;
-  margin-left: 28px;
+  margin-left: 0;
   width: calc(100% - 28px);
   max-width: 160px;
   padding: 6px 8px;
