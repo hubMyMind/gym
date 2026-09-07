@@ -23,87 +23,87 @@ export interface Session {
 const warmup: Group = {
   title: "Échauffement",
   exercises: [
-    { id: "warmup-rameur", name: "Rameur", image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=480&q=80", sets: "1", reps: "5 min", rest: "-" },
+    { id: "warmup-rameur", name: "Rameur", image: "https://wger.de/media/exercise-images/394/5e0c015f-9e4c-4034-beea-b0afbf15d0bd.png.400x400_q85.png", sets: "1", reps: "5 min", rest: "-" },
   ],
 };
 
 const abdos: Group = {
   title: "Abdominaux (circuit training, 3 tours, 1min recup en fin de tour)",
   exercises: [
-    { id: "abdo-gainage", name: "Gainage sur les coudes", image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=480&q=80", sets: "1", reps: "1 min", rest: "-" },
-    { id: "abdo-releve-genoux", name: "Relevé genoux à la chaise", image: "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?auto=format&fit=crop&w=480&q=80", sets: "1", reps: "20 à 30", rest: "-" },
-    { id: "abdo-crunch-sol", name: "Crunch au sol", image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=480&q=80", sets: "1", reps: "30 à 40", rest: "-" },
-    { id: "abdo-torsions", name: "Torsions de buste banc à lombaires", image: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=480&q=80", sets: "1", reps: "20", rest: "-", note: "alterné" },
+    { id: "abdo-gainage", name: "Gainage sur les coudes", image: "https://wger.de/media/exercise-images/458/b7bd9c28-9f1d-4647-bd17-ab6a3adf5770.png.400x400_q85.png", sets: "1", reps: "1 min", rest: "-" },
+    { id: "abdo-releve-genoux", name: "Relevé genoux à la chaise", image: "https://wger.de/media/exercise-images/979/27097a3a-5749-428d-b94c-6082afe390f6.png.400x400_q85.png", sets: "1", reps: "20 à 30", rest: "-" },
+    { id: "abdo-crunch-sol", name: "Crunch au sol", image: "https://wger.de/media/exercise-images/91/Crunches-1.png.400x400_q85.png", sets: "1", reps: "30 à 40", rest: "-" },
+    { id: "abdo-torsions", name: "Torsions de buste banc à lombaires", image: "https://wger.de/media/exercise-images/1089/49f51716-535d-41dd-aeb5-cff5bb906bc1.jpeg.400x400_q85.jpg", sets: "1", reps: "20", rest: "-", note: "alterné" },
   ],
 };
 
 const pectoraux: Group = {
   title: "Pectoraux",
   exercises: [
-    { id: "pec-dev-couche", name: "Développé couché haltères", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "8", rest: "1min" },
-    { id: "pec-dev-incline", name: "Développé incliné", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "15", rest: "45\"" },
-    { id: "pec-presse", name: "Presse pectorale", image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "8", rest: "1min", note: "prise serrée" },
+    { id: "pec-dev-couche", name: "Développé couché haltères", image: "https://wger.de/media/exercise-images/1084/91dd5a95-1c45-46f2-a074-de41b6ad599b.jpg.400x400_q85.jpg", sets: "5", reps: "8", rest: "1min" },
+    { id: "pec-dev-incline", name: "Développé incliné", image: "https://wger.de/media/exercise-images/16/Incline-press-1.png.400x400_q85.png", sets: "4", reps: "15", rest: "45\"" },
+    { id: "pec-presse", name: "Presse pectorale", image: "https://wger.de/media/exercise-images/129/b263c968-e067-4750-916a-d8758a7df23e.webp.400x400_q85.jpg", sets: "5", reps: "8", rest: "1min", note: "prise serrée" },
   ],
 };
 
 const dorsaux: Group = {
   title: "Dorsaux",
   exercises: [
-    { id: "dos-tirage-devant", name: "Tirage devant barre poignée", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "8", rest: "1min", note: "paume de mains face à face" },
-    { id: "dos-tirage-vertical", name: "Tirage vertical nuque", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "15", rest: "45\"" },
-    { id: "dos-rowing-machine", name: "Rowing machine", image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "8", rest: "1min", note: "en prise serrée" },
-    { id: "dos-ext-lombaire", name: "Ext. lombaire au banc", image: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "15", rest: "45\"" },
+    { id: "dos-tirage-devant", name: "Tirage devant barre poignée", image: "https://wger.de/media/exercise-images/1127/4942b7c0-6bda-4983-88e5-86547c3d445e.png.400x400_q85.jpg", sets: "5", reps: "8", rest: "1min", note: "paume de mains face à face" },
+    { id: "dos-tirage-vertical", name: "Tirage vertical nuque", image: "https://wger.de/media/exercise-images/1136/5778a8e9-c606-4843-89c8-9d9469eeb6e4.PNG.400x400_q85.jpg", sets: "4", reps: "15", rest: "45\"" },
+    { id: "dos-rowing-machine", name: "Rowing machine", image: "https://wger.de/media/exercise-images/394/5e0c015f-9e4c-4034-beea-b0afbf15d0bd.png.400x400_q85.png", sets: "5", reps: "8", rest: "1min", note: "en prise serrée" },
+    { id: "dos-ext-lombaire", name: "Ext. lombaire au banc", image: "https://wger.de/media/exercise-images/301/2d5c2f99-b8ff-4095-b515-4c2a85afde70.png.400x400_q85.png", sets: "4", reps: "15", rest: "45\"" },
   ],
 };
 
 const epaules: Group = {
   title: "Épaules",
   exercises: [
-    { id: "epa-dev-devant", name: "Développé devant", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "8", rest: "1min" },
-    { id: "epa-rowing-menton", name: "Rowing menton barre", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "8", rest: "1min", note: "prise large" },
+    { id: "epa-dev-devant", name: "Développé devant", image: "https://wger.de/media/exercise-images/119/seated-barbell-shoulder-press-large-1.png.400x400_q85.jpg", sets: "5", reps: "8", rest: "1min" },
+    { id: "epa-rowing-menton", name: "Rowing menton barre", image: "https://wger.de/media/exercise-images/418/fa2a2207-43cb-4dc0-bc2a-039e32544790.png.400x400_q85.jpg", sets: "5", reps: "8", rest: "1min", note: "prise large" },
   ],
 };
 
 const cuisses: Group = {
   title: "Cuisses (Quadriceps)",
   exercises: [
-    { id: "cui-squat", name: "Squat haltères", image: "https://images.unsplash.com/photo-1566241142559-40e1dab266c6?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "8", rest: "1min" },
-    { id: "cui-presse", name: "Presse", image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=480&q=80", sets: "3", reps: "15", rest: "1min" },
-    { id: "cui-leg-extension", name: "Leg extension", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "8", rest: "1min" },
-    { id: "cui-souleve-terre", name: "Soulevé terre jambes tendues", image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "8", rest: "1min" },
-    { id: "cui-fentes", name: "Fentes haltères", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "8", rest: "1min" },
-    { id: "cui-hack-squat", name: "Hack squat", image: "https://images.unsplash.com/photo-1566241142559-40e1dab266c6?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "15", rest: "1min" },
+    { id: "cui-squat", name: "Squat haltères", image: "https://wger.de/media/exercise-images/203/1c052351-2af0-4227-aeb0-244008e4b0a8.jpeg.400x400_q85.jpg", sets: "4", reps: "8", rest: "1min" },
+    { id: "cui-presse", name: "Presse", image: "https://wger.de/media/exercise-images/371/d2136f96-3a43-4d4c-9944-1919c4ca1ce1.webp.400x400_q85.png", sets: "3", reps: "15", rest: "1min" },
+    { id: "cui-leg-extension", name: "Leg extension", image: "https://wger.de/media/exercise-images/369/78c915d1-e46d-4d30-8124-65d68664c3ef.png.400x400_q85.jpg", sets: "4", reps: "8", rest: "1min" },
+    { id: "cui-souleve-terre", name: "Soulevé terre jambes tendues", image: "https://wger.de/media/exercise-images/184/1709c405-620a-4d07-9658-fade2b66a2df.jpeg.400x400_q85.jpg", sets: "5", reps: "8", rest: "1min" },
+    { id: "cui-fentes", name: "Fentes haltères", image: "https://wger.de/media/exercise-images/113/Walking-lunges-1.png.400x400_q85.jpg", sets: "4", reps: "8", rest: "1min" },
+    { id: "cui-hack-squat", name: "Hack squat", image: "https://wger.de/media/exercise-images/130/Narrow-stance-hack-squats-1-1024x721.png.400x400_q85.png", sets: "5", reps: "15", rest: "1min" },
   ],
 };
 
 const ischios: Group = {
   title: "Ischios",
   exercises: [
-    { id: "isc-leg-curl", name: "Leg curl assis", image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "8", rest: "1min" },
+    { id: "isc-leg-curl", name: "Leg curl assis", image: "https://wger.de/media/exercise-images/117/seated-leg-curl-large-1.png.400x400_q85.jpg", sets: "4", reps: "8", rest: "1min" },
   ],
 };
 
 const mollets: Group = {
   title: "Mollets",
   exercises: [
-    { id: "mol-presse", name: "Extensions à la presse", image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "8 à 12", rest: "45\"", note: "genoux tendus" },
-    { id: "mol-assis", name: "Mollets assis", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=480&q=80", sets: "4", reps: "8 à 12", rest: "45\"" },
+    { id: "mol-presse", name: "Extensions à la presse", image: "https://wger.de/media/exercise-images/146/8b284904-d072-4381-a256-4c81d8fd9c1f.png.400x400_q85.jpg", sets: "4", reps: "8 à 12", rest: "45\"", note: "genoux tendus" },
+    { id: "mol-assis", name: "Mollets assis", image: "https://wger.de/media/exercise-images/622/9a429bd0-afd3-4ad0-8043-e9beec901c81.jpeg.400x400_q85.jpg", sets: "4", reps: "8 à 12", rest: "45\"" },
   ],
 };
 
 const triceps: Group = {
   title: "Triceps",
   exercises: [
-    { id: "tri-poulie-dos", name: "Extensions poulie haute de dos", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "10 à 12", rest: "45\"" },
-    { id: "tri-poulie-corde", name: "Extensions poulie corde", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "10 à 12", rest: "45\"" },
+    { id: "tri-poulie-dos", name: "Extensions poulie haute de dos", image: "https://wger.de/media/exercise-images/659/a60452f1-e2ea-43fe-baa6-c1a2208d060c.png.400x400_q85.jpg", sets: "5", reps: "10 à 12", rest: "45\"" },
+    { id: "tri-poulie-corde", name: "Extensions poulie corde", image: "https://wger.de/media/exercise-images/659/a60452f1-e2ea-43fe-baa6-c1a2208d060c.png.400x400_q85.jpg", sets: "5", reps: "10 à 12", rest: "45\"" },
   ],
 };
 
 const biceps: Group = {
   title: "Biceps",
   exercises: [
-    { id: "bic-poulie-corde", name: "Curl poulie corde", image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "10 à 12", rest: "45\"" },
-    { id: "bic-pronation", name: "Curl en pronation barre", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=480&q=80", sets: "5", reps: "10 à 12", rest: "45\"" },
+    { id: "bic-poulie-corde", name: "Curl poulie corde", image: "https://wger.de/media/exercise-images/138/Hammer-curls-with-rope-1.png.400x400_q85.png", sets: "5", reps: "10 à 12", rest: "45\"" },
+    { id: "bic-pronation", name: "Curl en pronation barre", image: "https://wger.de/media/exercise-images/74/Bicep-curls-1.png.400x400_q85.png", sets: "5", reps: "10 à 12", rest: "45\"" },
   ],
 };
 
